@@ -19,6 +19,7 @@
   gap: 60px;
   font-size: 20px;
   list-style: none;
+  margin-bottom: 0px;
 }
 
 .nav-menu li:hover {
@@ -28,7 +29,7 @@
 
 .nav-connect {
   border: 2px solid #000000;
-  padding: 15px 30px;
+  padding: 9px 30px;
   border-radius: 30px;
   font-size: 20px;
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);

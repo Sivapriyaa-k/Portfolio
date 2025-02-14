@@ -1,0 +1,44 @@
+.about {
+  text-align: center;
+  margin-top: 150px;
+  margin: 150px 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.about-title h1 {
+  font-size: 40px;
+  width: fit-content;
+  background: linear-gradient(270deg, #da7c25 5%, #b923e1 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-para p {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.about-skills {
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.about-skills img {
+  max-width: 78px;
+  min-width: 78px;
+  border: 1px solid;
+  border-image: linear-gradient(267deg, #da7c25 5%, #b923e1 100%);
+  border-image-slice: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1.5s ease-in-out; /* Added smooth transition */
+}
+
+.about-skills img:hover {
+  transform: scale(1.1);
+}
