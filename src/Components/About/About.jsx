@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import theme_pattern from "../../assets/theme_pattern.svg";
+// import theme_pattern from "../../assets/theme_pattern.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import js from "../../assets/javascript.svg";
@@ -16,7 +16,7 @@ function About() {
     <div className="about">
       <div className="about-title">
         <h1>About Me</h1>
-        <img src={theme_pattern} alt=""></img>
+        {/* <img src={theme_pattern} alt=""></img> */}
       </div>
       <div className="about-section">
         <div className="about-right">
