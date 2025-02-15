@@ -15,7 +15,7 @@ function About() {
   return (
     <div className="about">
       <div className="about-title">
-        <h1>About Me</h1>
+        <h1 className="text-center">About Me</h1>
         {/* <img src={theme_pattern} alt=""></img> */}
       </div>
       <div className="about-section">

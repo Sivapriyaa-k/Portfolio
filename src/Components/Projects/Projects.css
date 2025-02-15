@@ -1,0 +1,23 @@
+.projects {
+  margin: 150px 170px;
+  text-align: center;
+}
+
+.projects h1 {
+  font-size: 40px;
+  width: fit-content;
+  background: linear-gradient(270deg, #da7c25 5%, #b923e1 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.projects .projects-container {
+  gap: 20px;
+}
