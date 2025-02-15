@@ -10,6 +10,10 @@
   padding: 8px;
 }
 
+.anchor-link {
+  color: #fff;
+  text-decoration: none;
+}
 .navbar li {
   color: #fff;
   cursor: pointer;
@@ -24,9 +28,19 @@
   font-size: 20px;
   list-style: none;
   margin-bottom: 0px;
+  padding: 0px;
 }
 
-.nav-menu li:hover {
+.nav-menu li a:hover {
+  color: #da7c25;
+  border-bottom: 2px solid #da7c25;
+}
+
+.anchor-link p {
+  margin-bottom: 0px;
+}
+
+.anchor-link .active {
   color: #da7c25;
   border-bottom: 2px solid #da7c25;
 }
@@ -38,6 +52,11 @@
   font-size: 20px;
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
   cursor: pointer;
+}
+
+.nav-connect a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .nav-connect:hover {

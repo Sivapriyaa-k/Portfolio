@@ -6,7 +6,7 @@ import call_icon from "../../assets/call_icon.svg";
 
 const Contact = () => {
   return (
-    <div className="contact d-flex flex-column align-items-center">
+    <div className="contact d-flex flex-column align-items-center" id="contact">
       <div className="contact-title">
         <h1>Get in touch</h1>
       </div>

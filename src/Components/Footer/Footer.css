@@ -1,0 +1,22 @@
+.footer-icons {
+  gap: 35px;
+}
+
+.footer-icons i {
+  color: #d5d5d5;
+  transition: 0.5s;
+  font-size: 22px;
+}
+
+.footer-icons a:hover i {
+  color: #da7c24;
+  transform: scale(1.1);
+}
+
+.footer-top-left p {
+  color: #d5d5d5;
+}
+
+.footer {
+  margin: 0px 170px;
+}

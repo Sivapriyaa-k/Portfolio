@@ -5,7 +5,7 @@ import projects_data from "../../assets/projects_data.js";
 
 const Services = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="project-title  d-flex flex-column align-items-center justify-content-center">
         <h1 className="text-center">Projects</h1>
         {/* <img src={theme_pattern} alt="" /> */}
