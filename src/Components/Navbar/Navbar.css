@@ -90,8 +90,9 @@
     display: block;
     position: relative;
     top: 30px;
-    left: 290px;
-    width: 30px;
+    left: 132px;
+    width: 27px;
+    margin-bottom: 28px;
   }
 
   .nav-menu {
@@ -106,6 +107,7 @@
     z-index: 2;
     transition: right 0.5s;
     right: -350px;
+    justify-content: flex-start;
   }
 
   .nav-menu li {
