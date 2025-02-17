@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <img src={logo} alt="" />
-      <img src={menu_open} alt=""></img>
+      <img src={menu_open} alt="" className="menu-open"></img>
       <ul className="nav-menu">
-        <img src={menu_close} alt=""></img>
+        <img src={menu_close} alt="" className="menu-close"></img>
         <li>
           <AnchorLink className="anchor-link" href="#home">
             <p
