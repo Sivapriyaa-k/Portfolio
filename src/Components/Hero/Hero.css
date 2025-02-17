@@ -53,6 +53,10 @@
   border: 2px solid #da7c24;
 }
 
+.hero-connect a {
+  text-decoration: none;
+  color: #fff;
+}
 .hero-connect:hover {
   background: #0000;
   border: 2px solid #fff;
