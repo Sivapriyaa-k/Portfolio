@@ -24,7 +24,7 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      console.log("Success", res);
+      alert(res.message);
     }
   };
 
@@ -59,11 +59,26 @@ const Contact = () => {
         </div>
         <form onSubmit={onSubmit} className="contact-right d-flex flex-column ">
           <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter your name" name="name" />
+          <input
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+            required
+          />
           <label htmlFor="">Your Email</label>
-          <input type="email" placeholder="Enter your email" name="email" />
+          <input
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+            required
+          />
           <label htmlFor="">Write your message here</label>
-          <textarea name="message" rows="8" placeholder="Enter Your message" />
+          <textarea
+            name="message"
+            rows="8"
+            placeholder="Enter Your message"
+            required
+          />
           <button type="submit" className="contact-submit">
             Submit Now
           </button>
