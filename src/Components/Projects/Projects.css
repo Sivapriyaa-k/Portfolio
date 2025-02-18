@@ -1,5 +1,5 @@
 .projects {
-  margin: 150px 170px;
+  padding: 150px 170px;
   text-align: center;
 }
 
@@ -52,4 +52,10 @@
 .projects .col-md-4 {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 100px 20px;
+  }
 }

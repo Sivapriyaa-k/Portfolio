@@ -15,7 +15,7 @@ const Services = () => {
         <div className="row">
           {projects_data.map((service, index) => {
             return (
-              <div key={index} className="col-4 col-md-4 services-format">
+              <div key={index} className="col-12 col-md-4 services-format">
                 <a href={service.s_link} target="_blank">
                   <div className="project-ind">
                     <img src={service.s_image} alt="" className="img-fluid" />

@@ -1,6 +1,6 @@
 .about {
   text-align: center;
-  padding-top: 150px 0px;
+  padding: 150px 0px;
   margin: 0px 170px;
   display: flex;
   justify-content: center;
@@ -41,4 +41,11 @@
 
 .about-skills img:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 100px 0px;
+    margin: 0px 20px;
+  }
 }

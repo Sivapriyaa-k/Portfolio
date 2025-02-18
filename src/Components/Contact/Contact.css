@@ -93,3 +93,10 @@ form textarea {
 .contact-detail img {
   width: 23px;
 }
+
+@media (max-width: 768px) {
+  .contact-right {
+    gap: 20px;
+    width: auto;
+  }
+}
