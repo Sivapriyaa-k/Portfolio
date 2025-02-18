@@ -20,3 +20,24 @@
 .footer {
   margin: 0px 170px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    margin: 0px 20px;
+  }
+
+  .footer .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .footer-icons {
+    text-align: center;
+    align-items: center;
+    justify-content: center !important;
+  }
+
+  .footer-top-right {
+    margin-bottom: 20px;
+  }
+}
