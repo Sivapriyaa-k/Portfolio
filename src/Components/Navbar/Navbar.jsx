@@ -14,7 +14,7 @@ const Navbar = () => {
     menuRef.current.style.right = "0";
   };
   const closeMenu = () => {
-    menuRef.current.style.right = "-350";
+    menuRef.current.style.right = "-350px";
   };
 
   return (
@@ -29,8 +29,8 @@ const Navbar = () => {
       <ul ref={menuRef} className="nav-menu">
         <img
           src={menu_close}
-          alt=""
           onClick={closeMenu}
+          alt=""
           className="menu-close"
         ></img>
         <li>
