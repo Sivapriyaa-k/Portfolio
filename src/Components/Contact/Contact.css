@@ -100,3 +100,10 @@ form textarea {
     width: auto;
   }
 }
+
+@media (max-width: 568px) {
+  .contact-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
