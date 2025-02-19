@@ -6,13 +6,13 @@ const Footer = () => {
     <div className="footer">
       <div className="container-fluid py-3">
         <div className="row align-items-center">
-          <div className="col-md-6">
+          <div className="col-6 col-md-6">
             <div className="footer-top-left">
               <p>© 2025 | Sivapriya</p>
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-6 col-md-6">
             <div className="footer-top-right ">
               <div className="footer-icons d-flex justify-content-end">
                 <a

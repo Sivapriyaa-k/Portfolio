@@ -18,16 +18,16 @@
 }
 
 .footer {
-  margin: 0px 170px;
+  padding: 0px 170px;
+  border-top: 1px solid #d5d5d5;
 }
 
 @media (max-width: 768px) {
   .footer {
-    margin: 0px 20px;
+    padding: 0px 20px;
   }
 
   .footer .row {
-    flex-direction: column-reverse;
     text-align: center;
   }
 
@@ -38,6 +38,10 @@
   }
 
   .footer-top-right {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+  }
+
+  .footer p {
+    margin-bottom: 0px;
   }
 }
