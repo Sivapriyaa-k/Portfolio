@@ -73,18 +73,26 @@
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    padding: 20px 30px;
+    padding: 20px 20px;
     margin: 0px;
   }
 
+  .navbar .logo {
+    max-width: 43%;
+    min-width: 20%;
+  }
   .nav-connect {
     display: none;
+  }
+
+  .anchor-link {
+    font-size: 20px;
   }
 
   .menu-open {
     display: block;
     position: fixed;
-    right: 30px;
+    right: 20px;
   }
 
   .menu-close {

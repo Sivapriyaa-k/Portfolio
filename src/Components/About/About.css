@@ -48,4 +48,8 @@
     padding: 50px 0px;
     margin: 0px 20px;
   }
+
+  .about-para p {
+    font-size: 20px;
+  }
 }

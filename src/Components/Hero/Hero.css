@@ -71,6 +71,11 @@
   cursor: pointer;
 }
 
+.hero-resume a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .hero-resume:hover {
   background: linear-gradient(267deg, #da7c25 5%, #b923e1 100%);
   border: 2px solid #da7c24;

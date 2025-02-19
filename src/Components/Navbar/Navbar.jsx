@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <img src={logo} alt="" />
+      <img src={logo} alt="" className="logo" />
       <img
         src={menu_open}
         alt=""
