@@ -9,7 +9,7 @@ const Hero = () => {
       id="home"
     >
       {/* <img src={profile_img} alt="" /> */}
-      <h1>
+      <h1 className="wow fadeInUp" data-wow-delay="0.5s">
         <span>I'm Sivapriya</span>
         <br /> Web Developer
       </h1>
