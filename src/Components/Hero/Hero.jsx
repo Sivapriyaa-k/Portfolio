@@ -9,11 +9,14 @@ const Hero = () => {
       id="home"
     >
       {/* <img src={profile_img} alt="" /> */}
-      <h1 className="wow fadeInUp" data-wow-delay="0.5s">
+      <h1
+        class="wow animate__animated animate__fadeInRight"
+        data-wow-delay="0.6s"
+      >
         <span>I'm Sivapriya</span>
         <br /> Web Developer
       </h1>
-      <p className="text-center">
+      <p className="text-center wow animate__animated animate__fadeInUp">
         I am a Web Developer at <span>Kavisoftek</span> with 2 years of
         experience in WordPress, PHP, and React.
       </p>
