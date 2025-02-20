@@ -10,7 +10,7 @@ const Hero = () => {
     >
       {/* <img src={profile_img} alt="" /> */}
       <h1
-        class="wow animate__animated animate__fadeInRight"
+        className="wow animate__animated animate__fadeInRight"
         data-wow-delay="0.5s"
       >
         <span>I'm Sivapriya</span>
