@@ -58,6 +58,10 @@
   .projects {
     padding: 50px 20px;
   }
+
+  .projects .project-ind {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1599px) {
@@ -67,5 +71,9 @@
   .projects {
     padding: 75px 20px;
     text-align: center;
+  }
+
+  .projects .project-ind {
+    width: 100%;
   }
 }
