@@ -2,13 +2,15 @@ import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+  // const year = date("Y");
   return (
     <div className="footer">
       <div className="container-fluid py-3">
         <div className="row align-items-center">
           <div className="col-6 col-md-6">
             <div className="footer-top-left">
-              <p>© 2025 | Sivapriya</p>
+              <p>© {year} | Sivapriya</p>
             </div>
           </div>
 

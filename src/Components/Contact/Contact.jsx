@@ -31,7 +31,12 @@ const Contact = () => {
   return (
     <div className="contact d-flex flex-column align-items-center" id="contact">
       <div className="contact-title">
-        <h1>Get in touch</h1>
+        <h1
+          className="wow animate__animated animate__fadeInRight"
+          data-wow-delay="0.5s"
+        >
+          Get in touch
+        </h1>
       </div>
       <div className="contact-section d-flex">
         <div className="contact-left">
@@ -79,7 +84,11 @@ const Contact = () => {
             placeholder="Enter Your message"
             required
           />
-          <button type="submit" className="contact-submit">
+          <button
+            type="submit"
+            className="contact-submit  wow animate__animated animate__zoomIn"
+            data-wow-delay="0.5s"
+          >
             Submit Now
           </button>
         </form>
