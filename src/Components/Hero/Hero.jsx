@@ -11,20 +11,29 @@ const Hero = () => {
       {/* <img src={profile_img} alt="" /> */}
       <h1
         class="wow animate__animated animate__fadeInRight"
-        data-wow-delay="0.6s"
+        data-wow-delay="0.5s"
       >
         <span>I'm Sivapriya</span>
         <br /> Web Developer
       </h1>
-      <p className="text-center wow animate__animated animate__fadeInUp">
+      <p
+        className="text-center wow animate__animated animate__fadeInUp"
+        data-wow-delay="0.6s"
+      >
         I am a Web Developer at <span>Kavisoftek</span> with 2 years of
         experience in WordPress, PHP, and React.
       </p>
       <div className="hero-action d-flex align-items-center ">
-        <div className="hero-connect">
+        <div
+          className="hero-connect wow animate__animated animate__zoomIn"
+          data-wow-delay="0.5s"
+        >
           <AnchorLink href="#contact">Connect with me</AnchorLink>
         </div>
-        <div className="hero-resume">
+        <div
+          className="hero-resume wow animate__animated animate__zoomIn"
+          data-wow-delay="0.5s"
+        >
           <a
             href="https://drive.google.com/file/d/1MyIHIOBRTvCvZerZc4YwKcXZbDgPYNsy/view?usp=sharing"
             target="_blank"

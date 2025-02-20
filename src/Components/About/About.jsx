@@ -15,12 +15,20 @@ function About() {
   return (
     <div className="about" id="about">
       <div className="about-title">
-        <h1 className="text-center">About Me</h1>
+        <h1
+          className="text-center wow animate__animated animate__fadeInRight"
+          data-wow-delay="0.5s"
+        >
+          About Me
+        </h1>
         {/* <img src={theme_pattern} alt=""></img> */}
       </div>
       <div className="about-section">
         <div className="about-right">
-          <div className="about-para ">
+          <div
+            className="about-para wow animate__animated animate__fadeInUp"
+            data-wow-delay="0.6s"
+          >
             <p>
               Hi, I'm Sivapriya, a web developer currently working at Kavisoftek
               in Thanjavur. I graduated with a BE in Computer Science and
@@ -45,16 +53,57 @@ function About() {
             <img
               src={html}
               alt=""
-              className="bg-dark p-2 rounded-lg img-fluid"
+              className="bg-dark p-2 rounded-lg img-fluid wow animate__animated animate__zoomIn"
+              data-wow-delay="0.1s"
             />
-            <img src={css} alt="" className="bg-dark p-2" />
-            <img src={js} alt="" className="bg-dark p-2" />
-            <img src={wordpress} alt="" className="bg-dark p-2" />
-            <img src={php} alt="" className="bg-dark p-2" />
-            <img src={bootstrap} alt="" className="bg-dark p-2" />
-            <img src={java} alt="" className="bg-dark p-2" />
-            <img src={git} alt="" className="bg-dark p-2" />
-            <img src={react} alt="" className="bg-dark p-2" />
+            <img
+              src={css}
+              alt=""
+              className="bg-dark p-2 img-fluid wow animate__animated animate__zoomIn"
+              data-wow-delay="0.1s"
+            />
+            <img
+              src={js}
+              alt=""
+              className="bg-dark p-2 img-fluid wow animate__animated animate__zoomIn"
+              data-wow-delay="0.3s"
+            />
+            <img
+              src={wordpress}
+              alt=""
+              className="bg-dark p-2 img-fluid wow animate__animated animate__zoomIn"
+              data-wow-delay="0.4s"
+            />
+            <img
+              src={php}
+              alt=""
+              className="bg-dark p-2 img-fluid wow animate__animated animate__zoomIn"
+              data-wow-delay="0.5s"
+            />
+            <img
+              src={bootstrap}
+              alt=""
+              className="bg-dark p-2 img-fluid wow animate__animated animate__zoomIn"
+              data-wow-delay="0.6s"
+            />
+            <img
+              src={java}
+              alt=""
+              className="bg-dark p-2 img-fluid wow animate__animated animate__zoomIn"
+              data-wow-delay="0.7s"
+            />
+            <img
+              src={git}
+              alt=""
+              className="bg-dark p-2 img-fluid wow animate__animated animate__zoomIn"
+              data-wow-delay="0.8s"
+            />
+            <img
+              src={react}
+              alt=""
+              className="bg-dark p-2 img-fluid wow animate__animated animate__zoomIn"
+              data-wow-delay="0.9s"
+            />
           </div>
         </div>
       </div>
