@@ -10,7 +10,8 @@ const Hero = () => {
     >
       {/* <img src={profile_img} alt="" /> */}
       <h1>
-        <span>I'm Sivapriya, </span>a Web Developer based in Thanjavur.
+        <span>I'm Sivapriya</span>
+        <br /> Web Developer
       </h1>
       <p className="text-center">
         I am a Web Developer at <span>Kavisoftek</span> with 2 years of
