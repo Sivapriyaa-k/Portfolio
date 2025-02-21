@@ -63,7 +63,7 @@
     width: 100%;
   }
 
-  .services-format {
+  .services-format:last-child {
     margin-bottom: 0px;
   }
 }
