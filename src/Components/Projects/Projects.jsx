@@ -2,7 +2,6 @@ import React from "react";
 import "./Projects.css";
 import projects_data from "../../assets/projects_data.js";
 // import theme_pattern from "../../assets/theme_pattern.svg";
-
 const Services = () => {
   return (
     <div className="projects" id="projects">
