@@ -25,6 +25,10 @@
 .footer .footer-top-left {
   text-align: left;
 }
+
+.footer-top-left a {
+  color: #fff;
+}
 @media (max-width: 768px) {
   .footer {
     padding: 0px 20px;
