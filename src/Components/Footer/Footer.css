@@ -29,6 +29,11 @@
 .footer-top-left a {
   color: #fff;
 }
+
+.footer-top-left a:hover {
+  color: #da7c25;
+}
+
 @media (max-width: 768px) {
   .footer {
     padding: 0px 20px;
