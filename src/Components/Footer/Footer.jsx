@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row align-items-center">
           <div className="col-6 col-md-6">
             <div className="footer-top-left">
-              <p>© {year} | Sivapriya</p>
+              <p>© {year} | <a href="https://sivapriyaa-portfolio.netlify.app/">Sivapriya</a></p>
             </div>
           </div>
 
