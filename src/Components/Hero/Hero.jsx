@@ -20,7 +20,7 @@ const Hero = () => {
         className="text-center wow animate__animated animate__fadeInUp"
         data-wow-delay="0.6s"
       >
-        I am a Web Developer at <span>Kavisoftek</span> with 2 years of
+        I am a Web Developer at <span>Kavisoftek</span> with 2.10 years of
         experience in WordPress, PHP, and React.
       </p>
       <div className="hero-action d-flex align-items-center ">
