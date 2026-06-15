@@ -46,9 +46,9 @@ function About() {
               Hi, I'm Sivapriya, a web developer currently working at Kavisoftek
               in Thanjavur. I graduated with a BE in Computer Science and
               Engineering from the Government College of Engineering, Thanjavur.
-              I have over test {getExperience()} of experience in web
-              development, primarily using WordPress, PHP, HTML, CSS, and
-              JavaScript. Additionally, I have knowledge in Java, SQL,React.
+              I have over {getExperience()} of experience in web development,
+              primarily using WordPress, PHP, HTML, CSS, and JavaScript.
+              Additionally, I have knowledge in Java, SQL,React.
             </p>
             <p>
               I have a strong foundation in web development and enjoy solving
