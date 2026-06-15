@@ -1,5 +1,5 @@
 import Tic from "../assets/tic.png";
-import Portfolio from "../assets/portfolio.png";
+import Dropbox from "../assets/dropbox.png";
 import Quiz from "../assets/Quiz.png";
 import booksky from "../assets/booksky.png";
 import card from "../assets/card.png";
@@ -11,7 +11,7 @@ const Services_Data = [
     {
         s_name: "Dropbox",
         s_link: "https://sivapriyaa-k.github.io/corporate-landing-page/",
-        s_image: Portfolio,
+        s_image: Dropbox,
     },
     {
         s_name: "Tic Tac Toe",
