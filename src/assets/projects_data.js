@@ -1,4 +1,5 @@
 import Tic from "../assets/tic.png";
+import Portfolio from "../assets/portfolio.png";
 import Quiz from "../assets/Quiz.png";
 import booksky from "../assets/booksky.png";
 import card from "../assets/card.png";
