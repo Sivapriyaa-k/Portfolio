@@ -11,7 +11,7 @@ const Services_Data = [
     {
         s_name: "Dropbox",
         s_link: "https://sivapriyaa-k.github.io/corporate-landing-page/",
-        s_image: Tic,
+        s_image: Portfolio,
     },
     {
         s_name: "Tic Tac Toe",
