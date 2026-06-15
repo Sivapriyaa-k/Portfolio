@@ -3,6 +3,21 @@ import "./Hero.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
+  const getExperience = () => {
+    const startDate = new Date(2022, 7); // August 2022
+    const currentDate = new Date();
+
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+    let months = currentDate.getMonth() - startDate.getMonth();
+
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+
+    return `${years} years and ${months} months`;
+  };
+
   return (
     <div
       className="hero d-flex align-items-center justify-content-center flex-column"
@@ -20,8 +35,8 @@ const Hero = () => {
         className="text-center wow animate__animated animate__fadeInUp"
         data-wow-delay="0.6s"
       >
-        I am a Web Developer at <span>Kavisoftek</span> with 3.3 years of
-        experience in WordPress, PHP, and React.
+        I am a Web Developer at <span>Kavisoftek</span> with {getExperience()}{" "}
+        of experience in WordPress, PHP, and React.
       </p>
       <div className="hero-action d-flex align-items-center ">
         <div
