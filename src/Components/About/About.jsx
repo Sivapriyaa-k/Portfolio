@@ -12,6 +12,19 @@ import git from "../../assets/git.svg";
 import react from "../../assets/react.svg";
 
 function About() {
+  const getExperience = () => {
+    const startDate = new Date(2022, 7);
+    const currentDate = new Date();
+
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+    let months = currentDate.getMonth() - startDate.getMonth();
+
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+    return `${years} years and ${months} months`;
+  };
   return (
     <div className="about" id="about">
       <div className="about-title">
@@ -33,7 +46,7 @@ function About() {
               Hi, I'm Sivapriya, a web developer currently working at Kavisoftek
               in Thanjavur. I graduated with a BE in Computer Science and
               Engineering from the Government College of Engineering, Thanjavur.
-              I have over 3 years and 3 months of experience in web development,
+              I have over {getExperience} of experience in web development,
               primarily using WordPress, PHP, HTML, CSS, and JavaScript.
               Additionally, I have knowledge in Java, SQL,React.
             </p>
