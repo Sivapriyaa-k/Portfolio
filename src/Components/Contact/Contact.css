@@ -88,6 +88,7 @@ form textarea {
 
 .contact-detail a:hover p {
   color: #da7c24;
+  text-decoration: underline;
 }
 
 .contact-detail img {
