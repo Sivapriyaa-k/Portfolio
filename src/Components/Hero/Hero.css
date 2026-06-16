@@ -94,6 +94,10 @@
     line-height: 51px;
   }
 
+  .hero-action {
+    width: 100%;
+  }
+
   .hero-resume {
     width: 100%;
   }
