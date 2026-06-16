@@ -94,7 +94,8 @@
     line-height: 51px;
   }
 
-  .hero-action {
+  .hero-action,
+  .hero-connect {
     width: 100%;
   }
 
