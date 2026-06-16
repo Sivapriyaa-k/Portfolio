@@ -94,8 +94,12 @@
     line-height: 51px;
   }
 
+  .hero-resume {
+    width: 100%;
+  }
+
   .hero p {
-    width: 67%;
+    width: 100%;
     font-size: 20px;
     line-height: 36px;
   }
