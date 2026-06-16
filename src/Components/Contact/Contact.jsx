@@ -43,13 +43,17 @@ const Contact = () => {
           <h1>Let's talk</h1>
           <div className="contact-details">
             <div className="contact-detail">
-              <a href="mailto:sivapriyakalamegam@gmail.com" className="d-flex">
+              <a
+                href="mailto:sivapriyakalamegam@gmail.com"
+                className="d-flex"
+                target="_blank"
+              >
                 <img src={mail_icon} alt="" />
                 <p>Sivapriyakalamegam@gmail.com</p>
               </a>
             </div>
             <div className="contact-detail">
-              <a href="tel:9788174642" className="d-flex">
+              <a href="tel:9788174642" className="d-flex" target="_blank">
                 <img src={call_icon} alt="" /> <p>9788174642</p>
               </a>
             </div>
