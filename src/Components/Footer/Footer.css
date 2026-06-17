@@ -44,6 +44,10 @@
   .footer .row {
     text-align: center;
   }
+  
+  .footer-main {
+    flex-direction: column;
+  }
 
   .footer-icons {
     text-align: center;
